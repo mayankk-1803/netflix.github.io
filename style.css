@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(bg01.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px ,100vw);
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    height: 92px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 120px;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Roboto", sans-serif;
+    height: calc(100% - 92px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* font-size: 2.2rem; */
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+     height: 7px;
+     background-color: rgb(46, 44, 44);
+}
+.btn{
+    padding: 9px 20px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    color: white;
+    padding: 7px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 9, 9);
+}
+.btn-red-sm{
+    color: white; 
+    padding: 9px 20px;
+    background-color: rgb(228, 8, 8);
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 125px 8px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgba(25,25,25,0.7)
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;    
+}
+.first > div {
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.first > div :nth-child(2){
+    font-size: 34px;
+
+}
+
+.secimg{
+    position: relative;
+   
+}
+
+.secimg img{
+    top: 10px;
+    position: relative;
+    z-index: 11;
+    width: 44vw;
+}
+.secimg video{
+    position: absolute;
+    top: 68px;
+    right: 0;
+    width: 38vw;
+}
